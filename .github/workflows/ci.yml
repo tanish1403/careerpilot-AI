@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with: {python-version: "3.12", cache: pip}
       - run: python -m pip install -e "services/api[dev]"
       # The default rule set of current ruff flags ~600 style findings in existing code (see
@@ -45,7 +45,7 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with: {python-version: "3.12"}
       - uses: actions/setup-node@v4
         with: {node-version: 22}
