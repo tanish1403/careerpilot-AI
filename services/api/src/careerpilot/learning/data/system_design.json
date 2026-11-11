@@ -1,0 +1,47 @@
+{
+ "key": "system_design",
+ "name": "System design",
+ "description": "Designing scalable services and reasoning about trade-offs.",
+ "topics": [
+  {
+   "title": "Requirements, estimation and API sketching",
+   "topic": "system design",
+   "hours": 3
+  },
+  {
+   "title": "Storage: SQL vs NoSQL, sharding, replication",
+   "topic": "databases",
+   "hours": 5
+  },
+  {
+   "title": "Caching strategies and CDNs",
+   "topic": "caching",
+   "hours": 3
+  },
+  {
+   "title": "Load balancing and horizontal scaling",
+   "topic": "scalability",
+   "hours": 3
+  },
+  {
+   "title": "Queues, streams and async processing",
+   "topic": "messaging",
+   "hours": 4
+  },
+  {
+   "title": "Consistency, availability and CAP trade-offs",
+   "topic": "distributed systems",
+   "hours": 4
+  },
+  {
+   "title": "Rate limiting, idempotency and retries",
+   "topic": "reliability",
+   "hours": 3
+  },
+  {
+   "title": "Worked designs: URL shortener, feed, chat",
+   "topic": "system design",
+   "hours": 6
+  }
+ ]
+}

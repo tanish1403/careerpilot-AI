@@ -1,0 +1,36 @@
+@import '@fontsource-variable/bricolage-grotesque';
+@import '@fontsource-variable/hanken-grotesk';
+@import '@fontsource-variable/jetbrains-mono';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 238 242 246; --surface: 255 255 255; --sunken: 229 235 241; --line: 211 219 228;
+  --ink: 17 27 43; --muted: 92 105 123;
+  --rail: 16 28 46; --rail-ink: 190 204 222;
+  --brand: 14 116 144; --brand-ink: 255 255 255; --brand-soft: 219 240 246;
+  --warn: 146 84 6; --warn-soft: 254 240 208;
+  --danger: 178 34 52; --danger-soft: 253 228 231;
+  --ok: 21 116 66; --ok-soft: 217 242 227;
+}
+:root[data-theme='dark'] {
+  --bg: 11 18 29; --surface: 20 30 46; --sunken: 14 23 37; --line: 44 58 80;
+  --ink: 232 238 246; --muted: 150 166 188;
+  --rail: 7 12 21; --rail-ink: 170 186 208;
+  --brand: 76 201 230; --brand-ink: 6 24 32; --brand-soft: 17 52 64;
+  --warn: 245 190 90; --warn-soft: 66 46 10;
+  --danger: 255 140 150; --danger-soft: 70 22 30;
+  --ok: 110 220 160; --ok-soft: 16 58 38;
+}
+html, body, #root { height: 100%; }
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  font-size: 15px; line-height: 1.55;
+}
+h1, h2, h3 { @apply font-display; letter-spacing: -0.01em; }
+:focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 2px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+.horizon { background-image: linear-gradient(to right, rgb(var(--brand)) 0 28px, rgb(var(--line)) 28px 100%); height: 2px; }
+@keyframes rise { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+.page-in { animation: rise .25s ease-out; }

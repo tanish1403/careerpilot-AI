@@ -1,0 +1,16 @@
+# Stub: tags build artifacts only; no publishing is configured.
+name: Release (stub)
+on:
+  push: {tags: ["v*"]}
+permissions: {contents: read}
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22}
+      - run: npm ci && npm run build
+        working-directory: apps/web
+      - uses: actions/upload-artifact@v4
+        with: {name: web-dist, path: apps/web/dist}

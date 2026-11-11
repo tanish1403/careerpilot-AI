@@ -1,0 +1,57 @@
+{
+ "key": "dsa",
+ "name": "DSA interview prep",
+ "description": "Core data structures and algorithm patterns.",
+ "topics": [
+  {
+   "title": "Arrays and strings",
+   "topic": "arrays",
+   "hours": 4
+  },
+  {
+   "title": "Hash maps and sets",
+   "topic": "hashing",
+   "hours": 3
+  },
+  {
+   "title": "Two pointers and sliding window",
+   "topic": "two pointers",
+   "hours": 4
+  },
+  {
+   "title": "Linked lists, stacks and queues",
+   "topic": "linked lists",
+   "hours": 4
+  },
+  {
+   "title": "Trees and binary search trees",
+   "topic": "trees",
+   "hours": 5
+  },
+  {
+   "title": "Graphs: BFS, DFS, topological sort",
+   "topic": "graphs",
+   "hours": 6
+  },
+  {
+   "title": "Recursion and backtracking",
+   "topic": "backtracking",
+   "hours": 4
+  },
+  {
+   "title": "Dynamic programming",
+   "topic": "dynamic programming",
+   "hours": 8
+  },
+  {
+   "title": "Heaps and priority queues",
+   "topic": "heaps",
+   "hours": 3
+  },
+  {
+   "title": "Binary search and sorting",
+   "topic": "binary search",
+   "hours": 3
+  }
+ ]
+}

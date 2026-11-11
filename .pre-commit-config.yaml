@@ -1,0 +1,14 @@
+repos:
+  - repo: local
+    hooks:
+      - id: scan-secrets
+        name: scan secrets
+        entry: python scripts/scan_secrets.py
+        language: system
+        pass_filenames: false
+      - id: ruff
+        name: ruff
+        entry: ruff check --isolated --select E9,F63,F7,F82 services/api
+        language: system
+        types: [python]
+        pass_filenames: false

@@ -1,0 +1,11 @@
+[
+ {"id": "l-1", "text": "Senior Backend Engineer", "categories": {"location": "Remote (US)", "team": "Platform", "commitment": "Full-time"},
+  "workplaceType": "remote", "createdAt": 1761642000000, "hostedUrl": "https://jobs.lever.co/initech/l-1?lever-source=LinkedIn",
+  "applyUrl": "https://jobs.lever.co/initech/l-1/apply", "descriptionPlain": "Join Initech platform team.",
+  "lists": [{"text": "Requirements", "content": "<li>5+ years Python</li><li>Strong SQL</li>"}, {"text": "Nice to have", "content": "<li>Terraform</li>"}],
+  "additionalPlain": "We are an equal opportunity employer.", "salaryRange": {"currency": "USD", "interval": "per-year-salary", "min": 140000, "max": 170000}},
+ {"id": "l-2", "text": "Junior QA Engineer", "categories": {"location": "Austin, TX"}, "createdAt": 1761000000000,
+  "hostedUrl": "https://jobs.lever.co/initech/l-2", "applyUrl": "https://jobs.lever.co/initech/l-2/apply", "descriptionPlain": "Test software."},
+ {"id": "l-3", "text": "Engineering Manager", "categories": {"location": "Austin, TX"}, "createdAt": 1761000000000,
+  "hostedUrl": "https://jobs.lever.co/initech/l-3", "applyUrl": "https://jobs.lever.co/initech/l-3/apply", "descriptionPlain": "Lead a team."}
+]

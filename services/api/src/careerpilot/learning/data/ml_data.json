@@ -1,0 +1,47 @@
+{
+ "key": "ml_data",
+ "name": "ML and data",
+ "description": "Data handling, statistics and applied machine learning.",
+ "topics": [
+  {
+   "title": "Python data stack: numpy and pandas",
+   "topic": "python",
+   "hours": 6
+  },
+  {
+   "title": "Statistics and probability fundamentals",
+   "topic": "statistics",
+   "hours": 6
+  },
+  {
+   "title": "SQL for analytics",
+   "topic": "sql",
+   "hours": 4
+  },
+  {
+   "title": "Supervised learning and model evaluation",
+   "topic": "machine learning",
+   "hours": 8
+  },
+  {
+   "title": "Feature engineering and leakage",
+   "topic": "machine learning",
+   "hours": 4
+  },
+  {
+   "title": "Deep learning basics",
+   "topic": "deep learning",
+   "hours": 8
+  },
+  {
+   "title": "Experiment tracking and reproducibility",
+   "topic": "mlops",
+   "hours": 3
+  },
+  {
+   "title": "Model serving and monitoring",
+   "topic": "mlops",
+   "hours": 4
+  }
+ ]
+}

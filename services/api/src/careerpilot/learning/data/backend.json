@@ -1,0 +1,47 @@
+{
+ "key": "backend",
+ "name": "Backend engineering",
+ "description": "HTTP APIs, databases, reliability and testing.",
+ "topics": [
+  {
+   "title": "HTTP and REST API design",
+   "topic": "api",
+   "hours": 4
+  },
+  {
+   "title": "SQL and relational modelling",
+   "topic": "sql",
+   "hours": 6
+  },
+  {
+   "title": "Indexes, transactions, query plans",
+   "topic": "databases",
+   "hours": 5
+  },
+  {
+   "title": "Authentication and authorization basics",
+   "topic": "security",
+   "hours": 4
+  },
+  {
+   "title": "Caching and queues",
+   "topic": "backend",
+   "hours": 4
+  },
+  {
+   "title": "Testing: unit, integration, contract",
+   "topic": "testing",
+   "hours": 4
+  },
+  {
+   "title": "Containers and deployment basics",
+   "topic": "devops",
+   "hours": 4
+  },
+  {
+   "title": "Observability: logs, metrics, tracing",
+   "topic": "observability",
+   "hours": 3
+  }
+ ]
+}

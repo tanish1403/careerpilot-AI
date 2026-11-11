@@ -1,0 +1,47 @@
+{
+ "key": "frontend",
+ "name": "Frontend engineering",
+ "description": "Web platform, components, state and accessibility.",
+ "topics": [
+  {
+   "title": "HTML semantics and accessibility",
+   "topic": "html",
+   "hours": 4
+  },
+  {
+   "title": "CSS layout: flexbox and grid",
+   "topic": "css",
+   "hours": 4
+  },
+  {
+   "title": "JavaScript/TypeScript core language",
+   "topic": "javascript",
+   "hours": 6
+  },
+  {
+   "title": "Component model and state management",
+   "topic": "react",
+   "hours": 6
+  },
+  {
+   "title": "Data fetching, forms and validation",
+   "topic": "frontend",
+   "hours": 4
+  },
+  {
+   "title": "Browser performance and Core Web Vitals",
+   "topic": "performance",
+   "hours": 3
+  },
+  {
+   "title": "Frontend testing",
+   "topic": "testing",
+   "hours": 3
+  },
+  {
+   "title": "Build tooling and bundling",
+   "topic": "tooling",
+   "hours": 2
+  }
+ ]
+}

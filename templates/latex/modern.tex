@@ -1,0 +1,27 @@
+% CareerPilot template: modern (single column, sans-serif, coloured headings, ATS-friendly).
+% Compile with XeLaTeX. Name, contact and body placeholders.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.7in,top=0.55in,bottom=0.55in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Sans}
+\defaultfontfeatures{Ligatures=NoCommon}
+\usepackage{xcolor}
+\definecolor{cpaccent}{HTML}{1F4E79}
+\usepackage{enumitem}
+\usepackage[hidelinks,unicode]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\raggedbottom
+\newcommand{\cpname}[1]{{\color{cpaccent}\Huge\bfseries #1\par}\vspace{3pt}}
+\newcommand{\cpcontact}[1]{{\small #1\par}\vspace{3pt}}
+\newcommand{\cpsection}[1]{\vspace{8pt}{\color{cpaccent}\large\bfseries #1}\par\vspace{-6pt}{\color{cpaccent}\rule{\linewidth}{0.8pt}}\par\vspace{1pt}}
+\newcommand{\cpsummary}[1]{#1\par}
+\newcommand{\cpentry}[4]{\vspace{3pt}{\bfseries #1}\hfill{\small #3}\par {\itshape #2}\hfill{\small #4}\par}
+\newenvironment{cpitems}{\begin{itemize}[leftmargin=1.2em,itemsep=1pt,topsep=2pt,parsep=0pt]}{\end{itemize}}
+\newcommand{\cpskills}[2]{{\bfseries #1:} #2\par}
+\begin{document}
+\cpname{<<NAME>>}
+\cpcontact{<<CONTACT>>}
+<<BODY>>
+\end{document}

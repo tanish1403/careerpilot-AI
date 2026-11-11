@@ -1,0 +1,25 @@
+% CareerPilot template: classic (single column, serif, ATS-friendly). Compile with XeLaTeX.
+% Name, contact and body placeholders are filled with already-escaped content.
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.75in,top=0.6in,bottom=0.6in]{geometry}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=NoCommon}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[hidelinks,unicode]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\raggedbottom
+\newcommand{\cpname}[1]{{\centering{\Large\bfseries #1}\par}\vspace{2pt}}
+\newcommand{\cpcontact}[1]{{\centering #1\par}\vspace{4pt}}
+\newcommand{\cpsection}[1]{\vspace{7pt}{\large\bfseries\MakeUppercase{#1}}\par\vspace{-5pt}\rule{\linewidth}{0.5pt}\par\vspace{1pt}}
+\newcommand{\cpsummary}[1]{#1\par}
+\newcommand{\cpentry}[4]{\vspace{3pt}\textbf{#1}\hfill #3\par #2\hfill #4\par}
+\newenvironment{cpitems}{\begin{itemize}[leftmargin=1.3em,itemsep=1pt,topsep=2pt,parsep=0pt]}{\end{itemize}}
+\newcommand{\cpskills}[2]{\textbf{#1:} #2\par}
+\begin{document}
+\cpname{<<NAME>>}
+\cpcontact{<<CONTACT>>}
+<<BODY>>
+\end{document}

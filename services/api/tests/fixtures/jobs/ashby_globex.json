@@ -1,0 +1,9 @@
+{"jobs": [
+ {"id": "a1", "title": "Staff Machine Learning Engineer", "location": "Remote", "workplaceType": "Remote", "isRemote": true, "isListed": true,
+  "publishedAt": "2026-11-03T12:00:00.000+00:00", "jobUrl": "https://jobs.ashbyhq.com/globex/a1", "applyUrl": "https://jobs.ashbyhq.com/globex/a1/application",
+  "descriptionHtml": "<p>Own ML systems.</p><h2>Qualifications</h2><ul><li>Must have PyTorch and Python experience</li><li>PhD or MS in a related field</li></ul>",
+  "compensation": {"compensationTierSummary": "$200K - $260K"}},
+ {"id": "a2", "title": "Unlisted Role", "isListed": false, "location": "Berlin", "jobUrl": "https://jobs.ashbyhq.com/globex/a2", "descriptionHtml": "<p>x</p>"},
+ {"id": "a3", "title": "Product Designer", "location": "Berlin", "workplaceType": "Hybrid", "isListed": true,
+  "jobUrl": "https://jobs.ashbyhq.com/globex/a3", "descriptionPlain": "Design things with Figma."}
+]}

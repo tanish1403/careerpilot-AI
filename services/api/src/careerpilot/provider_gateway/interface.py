@@ -25,6 +25,7 @@ class TaskPolicy(BaseModel):
     prefer_provider_id: str | None = None
     local_only: bool = False
     json_schema: dict | None = None       # structured-output contract; fallbacks must honor it
+    sensitive_document: bool = False      # consent gate: external providers need allow_external_llm
 
 
 class GenerateRequest(BaseModel):
